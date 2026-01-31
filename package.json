@@ -1,0 +1,32 @@
+{
+  "name": "uuidfactory-ts",
+  "version": "1.0.0",
+  "description": "TypeScript client for UUIDFactory API – generate and validate UUIDs online",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"No tests yet\" && exit 0",
+    "start": "ts-node examples/basic.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uuidfactory/uuidfactory-ts.git"
+  },
+  "keywords": [
+    "uuid",
+    "typescript",
+    "uuidfactory",
+    "uuid generator",
+    "uuid validator",
+    "guid",
+    "batch generation"
+  ],
+  "author": "UUIDFactory",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {}
+}

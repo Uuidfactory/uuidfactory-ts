@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc",
     "test": "echo \"No tests yet\" && exit 0",
-    "start": "ts-node examples/basic.ts"
+    "start": "ts-node examples/batch.ts"
   },
   "repository": {
     "type": "git",

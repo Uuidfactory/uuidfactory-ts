@@ -14,9 +14,10 @@ async function runBasicExample() {
   console.log("UUID v7:", uuidV7);
   console.log("GUID:", guid);
 
-  // Validate single UUID
-  const isValid = await client.validate(uuidV4);
-  console.log("Is UUID v4 valid?", isValid);
+  // Validate single UUID (pełny wynik: uuid, status, type)
+  const validation = await client.validate(uuidV4);
+  console.log("Validate UUID v4:", validation);
+  console.log("Is UUID v4 valid?", validation.status === "valid");
 }
 
 runBasicExample().catch(console.error);

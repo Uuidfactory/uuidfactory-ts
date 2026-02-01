@@ -22,6 +22,7 @@
     "guid",
     "batch generation"
   ],
+  "files": ["dist"],
   "author": "UUIDFactory",
   "license": "MIT",
   "devDependencies": {
